@@ -21,7 +21,7 @@ BrainWash has four stages:
 **The datasets, checkpoints, and inverted samples, used for producing the tables are here: https://huggingface.co/datasets/mintlabvandy/BrainWash-CVPR24/tree/main**
 
 ### Training the Continual Learner
-This repository contains code for 4 different regularization-based CL methods: EWC, Rwalk, MAS, and AFEC-EWC. 
+This repository contains supports 4 different regularization-based CL methods: EWC, Rwalk, MAS, and AFEC-EWC. 
 
 The following command runs the afec_ewc for 9 tasks of split CIFAR-100:
 
