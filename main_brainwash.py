@@ -227,7 +227,7 @@ if __name__ == '__main__':
     parser.add_argument('--init_acc', action='store_true', default=False, help='Whether to evluate the pretrained model on the prev task, useful for debugging')    
     parser.add_argument('--noise_norm', type=str, default='inf', help='type of the noise norm. Default is inf and we used it in the paper')   
     parser.add_argument('--cont_learner_lr', type=float, default=1e-3, help='Learning rate for taking the pseudo step when training the continual learner with the poisoned data')
-    parser.add_argument('--w_cur', type=float, default=1., help='Weight for the cautious attack, the higher the weight, more cautious the attack (preserves the accuracy of the last better)')       
+    parser.add_argument('--w_cur', type=float, default=1., help='eta in the paper, it is the weight for the cautious mode. The higher the weight, the more preservation of the last task accuracy')       
     
     parser.add_argument('--n_epochs', type=int, default=5000, help='Number of epochs for the noise training')           
     parser.add_argument('--save_every', type=int, default=100, help='saving interval in the midst of the noise training')       
