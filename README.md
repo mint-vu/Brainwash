@@ -18,7 +18,7 @@ BrainWash has four stages:
 3. Training the BrainWash noise. 
 4. Evaluating the noise performance.
 
-**The datasets, checkpoints, and the inverted samples, used for producing the tables are here: https://huggingface.co/datasets/mintlabvandy/BrainWash-CVPR24/tree/main**
+**The datasets, checkpoints, and inverted samples, used for producing the tables are here: https://huggingface.co/datasets/mintlabvandy/BrainWash-CVPR24/tree/main**
 
 ### Training the Continual Learner
 This repository contains code for 4 different regularization-based CL methods: EWC, Rwalk, MAS, and AFEC-EWC. 
